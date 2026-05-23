@@ -45,13 +45,11 @@ processes, and Bioconductor conventions — not just code snippets.
 
 | Skill | Purpose |
 |-------|---------|
-| **analyze-r-package** | Reads `DESCRIPTION`, `README`, and code to classify package type, identify key functions, and detect data-access patterns
-(ExperimentHub, DuckDB, etc.) |
+| **analyze-r-package** | Reads `DESCRIPTION`, `README`, and code to classify package type, identify key functions, and detect data-access patterns (ExperimentHub, DuckDB, etc.) |
 | **create-package-instructions** | Generates `.github/instructions/` for a package (overview, data-access, development, vignettes files) |
 | **update-package-instructions** | Re-analyzes a changed package and updates existing `.github/instructions/` while preserving hand-written notes |
 | **improve-code-coverage** | Runs `covr`, classifies gaps (Normal Use / Edge Cases / Error Handling / Correctness), and writes `testthat` cases |
-| **security-audit-r-package** | Audits `DESCRIPTION`, `NAMESPACE`, `R/`, and `src/` for security vulnerabilities, native-code memory issues, and
-dependency risks; produces a severity-labeled report |
+| **security-audit-r-package** | Audits `DESCRIPTION`, `NAMESPACE`, `R/`, and `src/` for security vulnerabilities, native-code memory issues, and dependency risks; produces a severity-labeled report |
 | **update-r-news** | Drafts a versioned NEWS block from git history; inspects diffs for vague commits; shows a preview before writing to disk |
 
 ### Planned
